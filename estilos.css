@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #BBE589;
+  color: #0E26DC;
+}
+
+header {
+  background-color: #79E662;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.missao {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.botao-acao {
+  background-color: #0E26DC;
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+
+footer {
+  background-color: #5A84E5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.lista-servicos {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
